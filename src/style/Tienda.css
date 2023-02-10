@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #0c0d0d;
+}
+.container_grid_products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.bg-blue {
+  background: url(https://static.vecteezy.com/system/resources/previews/005/178/287/non_2x/blue-and-white-cat-or-dog-seamless-pattern-meow-and-cat-paws-background-illustration-cute-cartoon-pastel-character-for-nursery-boy-baby-vector.jpg);
+  object-fit: cover;
+}
+
+.color-texto-shop1 {
+  color: #0d6efd;
+  font-family: Boogaloo, cursive !important;
+}
+
+.color-texto-shop2 {
+  color: #5d9dfd;
+  font-family: Boogaloo, cursive !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #242424 !important;
+  color: #fff !important
+}
+
+.fw-bolder {
+  font-family: Boogaloo, cursive;
+  font-size: 30px;
+}
+
+.shopping {
+  font-family: Boogaloo, cursive;
+  font-size: 30px;
+}
+
+.img-after {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover;
+}
+
+.after-container {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.name-after {
+  font-size: 17px;
+}
+
+.price-after {
+  font-size: 17px;
+}
+
+.price {
+  color: #14a44d;
+  font-size: 17px;
+}
+
+.btn-after {
+  height: 30px !important;
+  width: 100px !important;
+  text-align: center;
+  color: #dc4c64;
+  border: 0.125rem solid #dc4c64;
+  border-radius: 10px;
+  font-size: 13px;
+  transition: 0.5s;
+  margin-top: 10px !important;
+}
+
+@media (min-width: 1200px) {
+  .btn-after {
+    height: 33px !important;
+    width: 180px !important;
+  }
+}
+
+.btn-after:hover {
+  background-color: #dc4c64;
+  border-color: #dc4c64;
+  color: #fff;
+}
